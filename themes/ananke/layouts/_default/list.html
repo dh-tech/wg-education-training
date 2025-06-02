@@ -1,15 +1,94 @@
 {{ define "main" }}
-  <article class="pa3 pa4-ns nested-copy-line-height">
-    <section class="cf ph3 pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
-      {{- .Content -}}
-    </section>
-    <section class="flex-ns flex-wrap justify-around mt5">
-      {{ range .Paginator.Pages }}
-        <div class="relative w-100 w-30-l mb4 bg-white br4">
-          {{ .Render "summary" }}
-        </div>
+<article class="pa3 pa4-ns nested-copy-line-height">
+
+  <!-- Content -->
+  <section class="cf ph3 pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+    {{- .Content -}}
+  </section>
+
+  <!-- Search -->
+  <section class="ph3">
+    <!-- Search Input -->
+    <input id="searchInput" class="input-reset ba b--black-20 pa2 mb3 db w-100" type="text" placeholder="Search...">
+
+    <!-- Tag Filters -->
+    <div id="tagFilters" class="mb3">
+      {{ $allTags := slice }}
+      {{ range .Site.RegularPages }}
+        {{ range .Params.tags }}
+          {{ $allTags = $allTags | append . }}
+        {{ end }}
       {{ end }}
-    </section>
-    {{- template "_internal/pagination.html" . -}}
-  </article>
+      {{ $uniqueTags := $allTags | uniq | sort }}
+      {{ range $uniqueTags }}
+        <label class="mr3">
+          <input type="checkbox" class="tag-checkbox" value="{{ . }}"> {{ . }}
+        </label>
+      {{ end }}
+    </div>
+
+    <!-- Status Filter -->
+    <div class="mb4">
+      <label for="statusFilter" class="mr2">Status:</label>
+      <select id="statusFilter" class="pa2">
+        <option value="">All</option>
+        <option value="published">Published</option>
+        <option value="draft">Draft</option>
+      </select>
+    </div>
+  </section>
+
+  <!-- Posts Grid -->
+  <section class="flex-ns flex-wrap justify-around mt4" id="postList">
+    {{ range .Paginator.Pages }}
+      <div class="relative w-100 w-30-l mb4 bg-white br4 post-card"
+           data-tags="{{ delimit .Params.tags " " }}"
+           data-title="{{ .Title | lower }}"
+           data-status="{{ .Params.status | default "published" }}">
+        {{ .Render "summary" }}
+      </div>
+    {{ end }}
+  </section>
+
+  <!-- Pagination -->
+  {{- template "_internal/pagination.html" . -}}
+
+</article>
+
+<!-- Filtering Script -->
+<script>
+  const searchInput = document.getElementById("searchInput");
+  const tagCheckboxes = document.querySelectorAll(".tag-checkbox");
+  const statusFilter = document.getElementById("statusFilter");
+  const posts = document.querySelectorAll(".post-card");
+
+  function filterPosts() {
+    const search = searchInput.value.toLowerCase();
+    const selectedTags = Array.from(tagCheckboxes)
+                              .filter(cb => cb.checked)
+                              .map(cb => cb.value);
+    const selectedStatus = statusFilter.value;
+
+    posts.forEach(post => {
+      const title = post.dataset.title;
+      const tags = post.dataset.tags.split(" ");
+      const status = post.dataset.status;
+
+      const matchesSearch = title.includes(search);
+      const matchesTags = selectedTags.length === 0 || selectedTags.every(tag => tags.includes(tag));
+      const matchesStatus = selectedStatus === "" || status === selectedStatus;
+
+      if (matchesSearch && matchesTags && matchesStatus) {
+        post.style.display = "";
+      } else {
+        post.style.display = "none";
+      }
+    });
+  }
+
+  searchInput.addEventListener("input", filterPosts);
+  tagCheckboxes.forEach(cb => cb.addEventListener("change", filterPosts));
+  statusFilter.addEventListener("change", filterPosts);
+</script>
 {{ end }}
+
