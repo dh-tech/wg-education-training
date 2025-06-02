@@ -3,6 +3,7 @@ title = 'Git & GitHub'
 date = 2024-01-17T16:03:06-05:00
 last_updated = 2025-05-12T16:03:06-05:00
 author = ["Julia Damerow", "Fernanda Freire"] 
+toc = true
 status = 'published'
 +++
 
