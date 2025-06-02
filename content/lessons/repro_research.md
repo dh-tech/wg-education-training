@@ -7,7 +7,6 @@ toc = true
 status = 'published'
 +++
 
-# Reproducible Research
 
 If we are going to take the time to build computational tools for humanistic research, we want others to be able to reproduce our work. This can either be for the purposes of verification of our results or for applying the tools to new datasets/research questions. This desire for reproducibility is motivated by the following questions:
 
