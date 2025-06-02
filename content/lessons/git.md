@@ -7,7 +7,6 @@ toc = true
 status = 'published'
 +++
 
-# Git and GitHub
 
 In this lesson, we will talk about version control with Git and GitHub. Some of you might have already heard about it or even used it. Git is a very popular version control tool mostly used by developers but it can very well be applied to non-coding projects as well! You could use it to write a paper or to manage your dataset. If you do develop code, however, you should not live without Git or another version control system. There are several other version control systems such as Mercurial and SVN but Git is the most used in research. In the international research software engineer survey from 2022, Git was used by [93.75% of all survey respondents](https://softwaresaved.github.io/international-survey-2022/section/good-practices/#use-of-version-control).
 
