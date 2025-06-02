@@ -14,6 +14,8 @@ If we are going to take the time to build computational tools for humanistic res
 - Will others know that my code works and does what I say it does?
 - Will others be able to adapt, modify and contribute to my code?
 
+<!--more-->
+
 ### Humanities-specific barriers
 
 In the humanities, reproducible research is a moving target. While the social sciences have recently reckoned with a so-called "[replication crisis](https://en.wikipedia.org/wiki/Replication_crisis)," the humanities are only beginning to think about how their research can be reproducible. As the humanities increasingly works with large data sets and computational tools that exceed what can be manually verified by a third-party observer, we need to agree upon best practices that will ensure our peers can trust the validity of our results. This problem is further aggrieved by the fact that most developers in the digital humanities are not software engineering professionals and may only be aware of some coding best practices but not all of the ones they need to guarantee the future sustainability of their code and long term digital projects.
