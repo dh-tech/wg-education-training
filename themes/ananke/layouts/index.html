@@ -1,7 +1,14 @@
 {{ define "main" }}
- <article class="cf pa3 pa4-ns w-100 w-70-ns center f4 lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+
+<section class="cf pa3 pa4-ns w-100 flex-ns">
+  <article class="w-100 w-60-ns f4 lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
     {{ .Content }}
   </article>
+  <div class="w-30-ns pl4-ns dn db-ns">
+    <img src="https://github.com/dh-tech/wg-education-training/blob/website/static/images/hippocoding3.png?raw=true" alt="Hippocoding" class="db w-100 br3">
+  </div>
+</section>
+
   {{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
   {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
   {{/* Create a variable with that section to use in multiple places. */}}
