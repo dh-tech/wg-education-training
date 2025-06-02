@@ -4,7 +4,6 @@ date = 2024-05-08T16:09:06-05:00
 status = 'draft'
 +++
 
-#### Building your Environment
 
 When creating a digital project it is important to know what underlying software, platforms, libraries, code, etc. we are utilizing. By keeping track of these elements we can make sure that our future work and that of researchers that build upon our efforts can execute our codes.
 But this can be a very time-consuming task especially when it is not built into the workflows that we may already use in our day-to-day practices. For this very reason, we can utilize containers that exist to help you standardize and be able to distribute your environments. 
