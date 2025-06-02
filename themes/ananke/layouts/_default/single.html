@@ -6,7 +6,7 @@
 {{ define "main" }}
   {{ $section := .Site.GetPage "section" .Section }}
   <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <header class="mt4 w-100">
+    <header class="mt4 w-100 w-two-thirds-l pr4-l">
       <aside class="instapaper_ignoref b helvetica tracked ttu">
           {{/*
           CurrentSection allows us to use the section title instead of inferring from the folder.
@@ -66,7 +66,7 @@
       </div>
     </div>
 
-    <aside class="w-30-l mt6-l">
+    <aside class=" w-100 w-30-l mt4 mt6-l">
       {{- partial "menu-contextual.html" . -}}
     </aside>
 
