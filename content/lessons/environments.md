@@ -4,8 +4,6 @@ date = 2024-05-08T16:09:06-05:00
 status = 'draft'
 +++
 
-# Environments
-
 #### Building your Environment
 
 When creating a digital project it is important to know what underlying software, platforms, libraries, code, etc. we are utilizing. By keeping track of these elements we can make sure that our future work and that of researchers that build upon our efforts can execute our codes.
