@@ -4,7 +4,6 @@ date = 2025-03-12T10:03:06-04:00
 status = 'draft'
 +++
 
-# Organizing your project
 
 For a software developer, an empty project can feel like a blank page does for a writer. There are several practical considerations, including: Where do I start? How will I add to my project as it grows? How do I organize my project so that others can contribute to it? There are no easy answers to these questions, but this lesson will provide some concrete ways to think about project organization.
 
