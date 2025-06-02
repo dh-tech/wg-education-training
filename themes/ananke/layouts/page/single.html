@@ -1,7 +1,7 @@
-{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
 {{ define "main" }}
-  <div class="flex-l mt2 mw8 center">
-    <article class="center cf pv5 ph3 ph4-ns mw7">
+  <div class="flex-l mt2 mw9 center">
+    
+    <article class="cf pv5 ph3 ph4-ns mw7">
       <header>
         <h1 class="f1">
           {{ .Title }}
@@ -11,5 +11,14 @@
         {{ .Content }}
       </div>
     </article>
+
+    <aside class="dn db-l w-30 pl4">
+      <nav class="sticky top-2">
+        <h2 class="f5 ttu tracked gray">On this page</h2>
+        {{ .TableOfContents }}
+      </nav>
+    </aside>
+
   </div>
 {{ end }}
+
