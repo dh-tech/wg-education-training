@@ -8,5 +8,5 @@ SectionPagesMenu = "main"
 
 [params]
     custom_css = ["custom.css"]
-    recent_posts_number = 3
+    recent_posts_number = 4
     toc = true
