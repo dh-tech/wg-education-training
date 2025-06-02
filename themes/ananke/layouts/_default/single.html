@@ -53,6 +53,11 @@
         <span class="f6 mv4 dib tracked"> - {{ i18n "wordCount" .WordCount }} </span>
       {{ end }}
     </header>
+     
+     <aside class=" w-100 w-30-l mt4 mt6-l">
+        {{- partial "menu-contextual.html" . -}}
+     </aside>
+     
     <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} w-two-thirds-l">
       {{- .Content -}}
       {{- partial "tags.html" . -}}
@@ -66,9 +71,7 @@
       </div>
     </div>
 
-    <aside class=" w-100 w-30-l mt4 mt6-l">
-      {{- partial "menu-contextual.html" . -}}
-    </aside>
+
 
   </article>
 {{ end }}
