@@ -16,6 +16,13 @@
             {{ .Title }}
             </a>
         </h1>
+        {{ with .Params.status }}
+        <span class="ba br2 ph2 pv1 f6 dib tracked ttu mt2 mb3 
+            {{ if eq . "draft" }}bg-light-blue blue
+            {{ else if eq . "published" }}bg-light-green dark-green
+            {{ else }}bg-light-gray gray{{ end }}">
+            {{ . }}
+        </span>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
           {{ .Summary }}
         </div>
