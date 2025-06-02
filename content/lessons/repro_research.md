@@ -3,6 +3,7 @@ title = 'Reproducible Research'
 date = 2024-01-17T16:03:06-05:00
 last_updated = 2025-06-01T16:03:06-05:00
 author = ["David Nelson", "Jose Hernandez"] 
+toc = true
 +++
 
 # Reproducible Research
