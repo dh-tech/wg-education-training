@@ -78,17 +78,23 @@
 
 
       {{/* Adding the lessons for the pathways load */}}
+      {{/* Adding the lessons for the pathways load */}}
       {{ with .Params.lessons }}
-      <section class="flex-ns flex-wrap justify-around mt5 w-100">
-        {{ range . }}
-          {{ with site.GetPage . }}
-          <div class="relative w-100 w-30-l mb4 bg-white br4 pa3 shadow-4">
-            {{ .Render "summary" }}
-          </div>
-          {{ end }}
-        {{ end }}
-      </section>
+        <section class="mt5 w-100">
+          <ol class="list pl0">
+            {{ range $index, $lesson := . }}
+              {{ with site.GetPage $lesson }}
+              <li class="mb4 bg-white br4 pa3 shadow-4">
+                <div class="f5 b mb2">Lesson {{ add $index 1 }}:</div>
+                {{ .Render "summary-just-title-tags" }}
+              </li>
+              {{ end }}
+            {{ end }}
+          </ol>
+        </section>
       {{ end }}
+
+
      
 
 
