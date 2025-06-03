@@ -79,13 +79,13 @@
 
       {{/* Adding the lessons for the pathways load */}}
       {{ with .Params.lessons }}
-        <section class="mt0 w-100">
+        <section class="w-100">
           <div class="flex-ns flex-wrap justify-between">
             {{ range $index, $lesson := . }}
               {{ with site.GetPage $lesson }}
               <div class="w-100 w-50-l mb4 pr3-ns">
-                <div class="bg-white br4 pa3 shadow-4 h-100">
-                  <div class="f3 b mb2"> {{ index (slice "I" "II" "III" "IV" "V" "VI" "VII" "VIII" "IX" "X") $index }} </div>
+                <div class="bg-white br4 pa0 shadow-4 h-100">
+                  <div class="f3 b mb1"> {{ index (slice "I" "II" "III" "IV" "V" "VI" "VII" "VIII" "IX" "X") $index }} </div>
                   {{ .Render "summary-just-title-tags" }}
                 </div>
               </div>
