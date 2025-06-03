@@ -5,6 +5,7 @@ last_updated = 2025-06-01T16:03:06-05:00
 author = ["David Nelson", "Jose Hernandez"] 
 toc = true
 status = 'published'
+pathways = ["intro-to-software-development"]
 +++
 
 
