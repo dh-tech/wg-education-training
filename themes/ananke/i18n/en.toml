@@ -35,7 +35,7 @@ other = "An email address is required."
 other = "Send"
 
 [taxonomyPageList]
-other = "<b>Welcome to our Catalog!<b> </br> Those with Draft tags are still under development but we invite all to contribute and/or benefit from their current state. In addition those with the Pathway tag represent a collection of lessons that we suggest for guided exposure to a certain topic."
+other = "<h3>Here are our {{ .Title }} lessons!<h3>"
 
 [readingTime]
 one = "One minute read"
