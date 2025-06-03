@@ -2,6 +2,7 @@
 title = 'Environments'
 date = 2024-05-08T16:09:06-05:00
 status = 'draft'
+pathways = ["intro-to-software-development"]
 +++
 
 
