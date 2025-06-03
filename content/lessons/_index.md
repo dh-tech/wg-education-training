@@ -5,4 +5,6 @@ featured_image = "/images/code-coffee-pic.jpeg"
 description = "Learning Materials"
 +++
 
-These are the lessons we're working on.
+### Welcome to our Catalog!
+
+Those with __Draft__ tags are still under development but we incvite all to contribute and/or benefit from their current state. In addition those with the __Pathway__ tag represent a collection of lessons that we suggest for exposure to a certain topic that may be of use!
