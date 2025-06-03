@@ -35,7 +35,7 @@ other = "An email address is required."
 other = "Send"
 
 [taxonomyPageList]
-other = "Welcome to our Catalog! </br> Those with Draft tags are still under development but we invite all to contribute and/or benefit from their current state. In addition those with the Pathway tag represent a collection of lessons that we suggest for guided exposure to a certain topic."
+other = "<b>Welcome to our Catalog!<b> </br> Those with Draft tags are still under development but we invite all to contribute and/or benefit from their current state. In addition those with the Pathway tag represent a collection of lessons that we suggest for guided exposure to a certain topic."
 
 [readingTime]
 one = "One minute read"
