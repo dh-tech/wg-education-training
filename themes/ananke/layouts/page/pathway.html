@@ -1,0 +1,19 @@
+{{ define "main" }}
+<main class="pa4">
+  <article class="center mw7">
+    <h1 class="f2">{{ .Title }}</h1>
+    <div class="lh-copy f4">
+      {{ .Content }}
+    </div>
+  </article>
+
+  <section class="flex-ns flex-wrap justify-around mt5">
+    {{ $pathway := .Params.pathwayID }}
+    {{ range where (where .Site.RegularPages "Params.pathways" $pathway) "File.Path" "ne" .File.Path }}
+      <div class="relative w-100 w-30-l mb4 bg-white br4 pa3 shadow-4">
+        {{ .Render "summary" }}
+      </div>
+    {{ end }}
+  </section>
+</main>
+{{ end }}
