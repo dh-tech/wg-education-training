@@ -10,3 +10,8 @@ SectionPagesMenu = "main"
     custom_css = ["custom.css"]
     recent_posts_number = 4
     toc = true
+
+[taxonomies]
+    status = "status"
+    pathway = "pathways"
+    tag = "tags"
