@@ -5,8 +5,13 @@ author = ["Jose Hernandez"]
 toc = true
 status = 'draft'
 layout = "pathway"        
-pathwayID = "intro-to-software-development"
 summary = "Start your journey with Git, project organization, and the principles of reproducible research"
+lessons = [
+  "lessons/git",
+  "lessons/organizing_project",
+  "lessons/repro_research",
+  "lessons/environments"
+]
 +++
 
 
