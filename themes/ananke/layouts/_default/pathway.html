@@ -84,7 +84,7 @@
             {{ range $index, $lesson := . }}
               {{ with site.GetPage $lesson }}
               <div class="w-100 w-50-l mb4 pr3-ns">
-                <div class="bg-white br4 pa0 shadow-4 h-100">
+                <div class="bg-white br4 pl2 shadow-4 h-100">
                   <div class="f3 b mb1"> {{ index (slice "I" "II" "III" "IV" "V" "VI" "VII" "VIII" "IX" "X") $index }} </div>
                   {{ .Render "summary-just-title-tags" }}
                 </div>
