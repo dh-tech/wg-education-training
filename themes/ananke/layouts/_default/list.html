@@ -3,6 +3,18 @@
     <section class="cf ph3 pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
       {{- .Content -}}
     </section>
+
+    <!-- Taxonomy Tabs -->
+    <nav class="tc mv4">
+      {{ $taxonomies := slice "tags" "status" "pathways" }}
+      {{ range $taxonomies }}
+        <a class="f5 link dim br3 ba bw1 ph3 pv2 ma2 dib dark-blue" href="/{{ . }}/">
+          {{ . | title }}
+        </a>
+      {{ end }}
+    </nav>
+
+    
     <section class="flex-ns flex-wrap justify-around mt5">
       {{ range .Paginator.Pages }}
         <div class="relative w-100 w-30-l mb4 bg-white br4">
