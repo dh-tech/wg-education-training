@@ -2,7 +2,7 @@ baseURL = 'https://dh-tech.github.io/wg-education-training/'
 languageCode = 'en-us'
 title = 'DHTech - Education & Training WG'
 theme = 'ananke'
-pagination.pagerSize = 9
+pagination.pagerSize = 3
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 
