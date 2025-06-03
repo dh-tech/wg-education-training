@@ -14,7 +14,7 @@ other = "read more"
 other = "By"
 
 [whatsInThis]
-other = "What's in this {{ .Type }}"
+other = "What's in this lesson"
 
 [related]
 other = "Related"
@@ -35,7 +35,7 @@ other = "An email address is required."
 other = "Send"
 
 [taxonomyPageList]
-other = "Below you will find pages that utilize the taxonomy term “{{ .Title }}”"
+other = "Welcome to our Catalog! </br> Those with Draft tags are still under development but we invite all to contribute and/or benefit from their current state. In addition those with the Pathway tag represent a collection of lessons that we suggest for guided exposure to a certain topic."
 
 [readingTime]
 one = "One minute read"
