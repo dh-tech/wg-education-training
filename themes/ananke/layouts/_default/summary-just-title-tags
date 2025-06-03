@@ -1,0 +1,28 @@
+<div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    {{with .CurrentSection.Title }}<span class="f6 db">{{ . }}</span>{{end}}
+    <h1 class="f3 near-black">
+      <a href="{{ .RelPermalink }}" class="link black dim">
+        {{ .Title }}
+      </a>
+    </h1>
+    
+    {{ with .Params.status }}
+    <span class="ba br2 ph2 pv1 f6 dib tracked ttu mt2 mb3 
+        {{ if eq . "draft" }}bg-light-blue blue
+        {{ else if eq . "published" }}bg-light-green dark-green
+        {{ else }}bg-light-gray gray{{ end }}">
+        {{ . }}
+    </span>
+    {{ end }}
+
+    {{ with .Params.layout }}
+    <span class="ba br2 ph2 pv1 f6 dib tracked ttu mt2 mb3 
+        {{ if eq . "pathways" }}bg-light-red red
+        {{ else }}bg-light-gray gray{{ end }}">
+        {{ . }}
+    </span>
+    {{ end }}
+    
+  </div>
+</div>
