@@ -15,7 +15,7 @@
             {{ if not .Parent }}
               <li class="list f5 f4-ns fw4 dib relative {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
                 <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
-                  {{ .Name }}
+                  {{ .Name }}{{ if .HasChildren }} <span class="caret">▼</span>{{ end }}
                 </a>
 
                 {{ if .HasChildren }}
