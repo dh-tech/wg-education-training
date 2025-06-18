@@ -45,3 +45,9 @@ li:hover > .nested-submenu {
   display: block;
 }
 
+.caret {
+  font-size: 0.75rem;
+  margin-left: 0.25rem;
+  vertical-align: middle;
+}
+
