@@ -5,5 +5,4 @@ description = "Our Team"
 layout = "simple"
 +++
 
-The content here is created and curated by the Educationa nd Training working group which is under the DHTech Special Interest Group of the ADHO.
-Our contributing members are found below:
+The Education & Training Working Group is an active working group within DHTech, the international community of digital humanities research software developers. DHTech in turn is part of the Alliance of Digital Humanities Organizations (ADHO), a global network that promotes digital research and teaching in the humanities. Our team composed of José Hernández, Julia Damerow, David Nelson, and Fernanda Freire collaborates on advancing the technical foundations of digital humanities through the curriculum development that you see here!
