@@ -23,9 +23,25 @@ p:has(> img) > img {
     display: inline-block;
 }
 
+
+li.relative {
+  position: relative;
+}
+
 .nested-submenu {
   display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 12rem;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+  padding: 0.5rem 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
+
+
 li:hover > .nested-submenu {
   display: block;
 }
+
