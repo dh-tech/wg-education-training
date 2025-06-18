@@ -22,3 +22,10 @@ p:has(> img) {
 p:has(> img) > img {
     display: inline-block;
 }
+
+.nested-submenu {
+  display: none;
+}
+li:hover > .nested-submenu {
+  display: block;
+}
