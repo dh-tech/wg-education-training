@@ -19,7 +19,7 @@
 
     
     <section class="flex-ns flex-wrap justify-around mt5">
-      {{ range (reverse .Paginator.Pages) }}
+      {{ range .Pages.ByDate.Reverse }}
         <div class="relative w-100 w-30-l mb4 bg-white br4">
           {{ .Render "summary" }}
         </div>
