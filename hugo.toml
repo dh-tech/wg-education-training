@@ -15,3 +15,36 @@ SectionPagesMenu = "main"
     status = "status"
     pathway = "pathways"
     tag = "tags"
+
+[menu]
+
+  [[menu.main]]
+    name = "About Us"
+    url = "/about/"
+    weight = 1
+    identifier = "about"
+
+  [[menu.main]]
+    name = "Lessons"
+    url = "/lessons/"
+    weight = 2
+    identifier = "lessons"
+
+  [[menu.main]]
+    name = "Contribute"
+    url = "/contribute/"
+    weight = 3
+    identifier = "contribute"
+
+  [[menu.main]]
+    name = "Author Guidelines"
+    url = "/contribute/author-guidelines/"
+    parent = "contribute"
+    weight = 1
+
+  [[menu.main]]
+    name = "Reviewer Guidelines"
+    url = "/contribute/reviewer-guidelines/"
+    parent = "contribute"
+    weight = 2
+
