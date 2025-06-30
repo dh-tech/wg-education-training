@@ -15,7 +15,7 @@ We welcome contributions of new lessons to the website. If you want to contribut
 
 To propose a new lesson you need to submit a proposed topic for your lesson, a brief justification (150 words) and a short abstract describing the lesson (150 words). You can also indicate co-contributors (co-authors) or ask us to help you find someone to help you create this new lesson. To create the issue on our GitHub repository you will also need a GitHub account.
 
-[Propose a new Lesson](https://github.com/dh-tech/wg-education-training/issues/new?template=propose-a-new-lesson.md)
+{{< button link="https://github.com/dh-tech/wg-education-training/issues/new?template=propose-a-new-lesson.md" text="Propose a new lesson">}}
 
 Here you can find the [author guidelines](./author-guidelines/) for lesson contributions.
 
@@ -25,13 +25,13 @@ Have you noticed any errors, gaps or mistakes that need our attention? Please le
 
 If there is anything you think should be corrected or changed, you can also use our issue template to inform us. To suggest a change you will need to indicate the page of reference, the change you think needs to be implemented as well as a justification. If you are willing to collaborate on the implementation of the change, you can also indicate that in the issue. To create the issue on our GitHub repository you will also need a GitHub account.
 
-[Suggest a Change](https://github.com/dh-tech/wg-education-training/issues/new?template=suggest-a-change.md)
+{{< button link="https://github.com/dh-tech/wg-education-training/issues/new?template=suggest-a-change.md" text="Suggest a change">}}
 
 ## Something else
 
 Not a change nor a new lesson, but something else entirely? Sure, just contact us through a blank issue. If you do so, please give us details of how you want to contribute and make sure to leave us information about how to contact you.
 
-[Submit blank issue](https://github.com/dh-tech/wg-education-training/issues/new?template=BLANK_ISSUE)
+{{< button link="https://github.com/dh-tech/wg-education-training/issues/new?template=BLANK_ISSUE" text="Submit a blank issue">}}
 
 ## Becoming a Reviewer
 
