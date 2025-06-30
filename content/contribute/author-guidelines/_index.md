@@ -2,6 +2,7 @@
 title = 'Author Guidelines'
 featured_image = "/images/code-coffee-pic.jpeg"
 description = "Author Guidelines"
+layout = 'simple'
 +++
 # Author Guidelines
 

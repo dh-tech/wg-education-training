@@ -2,6 +2,7 @@
 title = 'Reviewing Guidelines'
 featured_image = "/images/code-coffee-pic.jpeg"
 description = "Reviewing Guidelines"
+layout = 'simple'
 +++
 
 # Reviewing Guidelines
