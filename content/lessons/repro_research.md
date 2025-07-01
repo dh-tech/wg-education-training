@@ -19,30 +19,30 @@ If we are going to take the time to build computational tools for humanistic res
 
 ### Humanities-specific barriers
 
-In the humanities, reproducible research is a moving target. While the social sciences have recently reckoned with a so-called "[replication crisis](https://en.wikipedia.org/wiki/Replication_crisis)," the humanities are only beginning to think about how their research can be reproducible. As the humanities increasingly works with large data sets and computational tools that exceed what can be manually verified by a third-party observer, we need to agree upon best practices that will ensure our peers can trust the validity of our results. This problem is further aggrieved by the fact that most developers in the digital humanities are not software engineering professionals and may only be aware of some coding best practices but not all of the ones they need to guarantee the future sustainability of their code and long term digital projects.
+In the humanities, reproducible research is a moving target. While the social sciences have recently reckoned with a so-called "[replication crisis](https://en.wikipedia.org/wiki/Replication_crisis)," the humanities are only beginning to think about how their research can be reproducible. As the humanities increasingly work with large data sets and computational tools that exceed what can be manually verified by a third-party observer, we need to agree upon best practices that will ensure our peers can trust the validity of our results. This problem is further aggrieved by the fact that most developers in the digital humanities are not software engineering professionals and may only be aware of some coding best practices but not all of the ones they need to guarantee *(guarantee might be a little too much here, maybe "ensure" or "increase"?)* the future sustainability of their code and long term digital projects.
 
 ### Creating reproducibility
 
 This reproducibility does not occur by happenstance and there are a couple of steadfast principles that will allow you to provide others with the capacity of reproducing your work, which are:
 
-- Well-organized projects that others can understand ( Covered in our [Project Organization](https://dh-tech.github.io/wg-education-training/lessons/organizing_project/) lesson)
-- Using a version control system to facilitate collaboration on the project ( Covered in our [Git & GitHub](https://dh-tech.github.io/wg-education-training/lessons/git/) lesson)
-- Recording your environment so others can run your code on their machine( Covered in our [Environments](https://dh-tech.github.io/wg-education-training/lessons/environments/) lesson)
+- Well-organized projects that others can understand (covered in our [Project Organization](https://dh-tech.github.io/wg-education-training/lessons/organizing_project/) lesson)
+- Using a version control system to facilitate collaboration on the project (covered in our [Git & GitHub](https://dh-tech.github.io/wg-education-training/lessons/git/) lesson)
+- Recording your environment so others can run your code on their machine (covered in our [Environments](https://dh-tech.github.io/wg-education-training/lessons/environments/) lesson)
 
-These three are not by any means all-encompassing but they provide a signifiant starting point for those in the humnanites that are beggining to learn software developing practices or are moving on to larger digital humanities projects. Each one of these, as stated above has their own lesson, but there is an underlying lesson that ties thes together which is __documentation__.
+These three are not by any means all-encompassing but they provide a signifiant starting point for those in the humanities that are beginning to learn software development practices or are moving on to larger digital humanities projects. Each one of these, as stated above has their own lesson, but there is an underlying lesson that ties them together which is __documentation__.
 
 ### Documentation as law
 
-Documentation is the practice of recording what your code or tool does, how it should be used, and any necessary context so that others (including your future self) can understand, run, and extend it. therefore without correct and pervasive documenation all of our toher reprodiucibility efforst fall short. 
+Documentation is the practice of recording what your code or tool does, how it should be used, and any necessary context so that others (including your future self) can understand, run, and extend it. Therefore, without correct and pervasive documenation all of our other reproducibility efforts fall short. 
 
 Documentation can be found at all levels, and it is important that we know what it looks like so that when you are looking at tools, you can find it—and when you are building, you can make sure that it is prioritized. 
 
-The most granular documentation is comments which  are short notes written alongside the code to explain specific lines or logic such as:
+The most granular documentation consists of comments, which are short notes written alongside the code to explain specific lines or logic. Each programming language has its own way to add comments in the code. In Python, for example, a comment looks like this (starting with `#`):
    ```python
    print("Hello") # This line will print the string
    ```
 
-But for bigger projects with many files we may decide that oru documentation requires entire files whic ar eusually written as README files in reprositories or we may even decide to build a docs page that contains tutorials, descriptions,a nd everything in between into a single website. No matter the scale, documentation creates the foundation for reproducibility and readability for all levels of users from experienced programmers to first-timers!
+For bigger projects with many files it is good practice to provide entire documentation files. These files are typically called `README` or `README.md` and part of a the repository. One step further than README files, are dedicated docs pages that contain tutorials, descriptions, and everything in between made available via a webpage. No matter the scale, documentation creates the foundation for reproducibility and readability for all levels of users from experienced programmers to first-time coders!
 
 ##### Resources
 
