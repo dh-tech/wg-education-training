@@ -14,7 +14,7 @@ In this lesson, we will talk about version control with Git and GitHub. Some of 
 
 But what are version control systems? Version control systems are systems used for tracking changes in files. They allow multiple users to collaborate on the same project in parallel, maintaining the integrity of the files and avoiding overwriting each other’s work. They offer features such as maintaining a history of the changes, being able to revert to previous versions, and merge different versions of the same file. 
 
-Git is a piece of software originally developed by [Linus Torvald](https://en.wikipedia.org/wiki/Linus_Torvalds) that you install on your computer to version your files. GitHub, in contrast, is a cloud-based service used for hosting and managing Git repositories. It provides a series of collaborating tools that allow for different access permissions for collaborators, issue tracking, feature requests, documentation, and several other features.
+Git is a piece of software originally developed by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) that you install on your computer to version your files. GitHub, in contrast, is a cloud-based service used for hosting and managing Git repositories. It provides a series of collaborating tools that allow for different access permissions for collaborators, issue tracking, feature requests, documentation, and several other features.
 
 If you want to know more about why using Git and GitHub is useful, check [this page](https://coderefinery.github.io/git-intro/motivation/).
 
