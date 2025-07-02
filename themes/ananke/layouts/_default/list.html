@@ -4,7 +4,7 @@
       {{- .Content -}}
     </section>
 
-    <!-- Taxonomy Tabs -->
+    <!-- Draft & Publihsed Tabs -->
     <div class="tc mv4">
       <h4 class="f4 mb3 dark-gray">Filters:</h4>
       <nav>
@@ -17,14 +17,19 @@
     </div>
 
 
-    
+    <!-- putting the published ones first -->
     <section class="flex-ns flex-wrap justify-around mt5">
-      {{ range .Paginator.Pages.ByDate }}
+      {{ $published := where .Pages ".Params.status" "==" "published" | sort "Date" "desc" }}
+      {{ $drafts := where .Pages ".Params.status" "==" "draft" | sort "Date" "desc" }}
+      {{ $allPages := append $published $drafts }}
+      {{ $paginator := .Paginate $allPages }}
+      {{ range $paginator.Pages }}
         <div class="relative w-100 w-30-l mb4 bg-white br4">
           {{ .Render "summary" }}
         </div>
       {{ end }}
     </section>
+
     {{- template "_internal/pagination.html" . -}}
   </article>
 {{ end }}
