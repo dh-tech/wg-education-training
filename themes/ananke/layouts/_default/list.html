@@ -19,9 +19,9 @@
 
     <!-- putting the published ones first -->
     <section class="flex-ns flex-wrap justify-around mt5">
-      {{ $published := where .Pages ".Params.status" "==" "published" | sort "Date" "desc" }}
-      {{ $drafts := where .Pages ".Params.status" "==" "draft" | sort "Date" "desc" }}
-      {{ $allPages := append $published $drafts }}
+      {{ $published := where .Pages ".Params.status" "published" }}
+      {{ $draft := where .Pages ".Params.status" "draft"}}
+      {{ $allPages := append $draft.ByDate.Reverse $published.ByDate.Reverse }}
       {{ $paginator := .Paginate $allPages }}
       {{ range $paginator.Pages }}
         <div class="relative w-100 w-30-l mb4 bg-white br4">
