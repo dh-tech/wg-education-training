@@ -2,10 +2,11 @@
 title: "Git & GitHub"
 subtitle: "subtitle"
 author: [Julia Damerow, Fernanda Freire]
+reviewer: [Jose Hernandez, David Nelson]
 date: "2025-05-12"
 subject: "Version Control"
 keywords: [Git, GitHub]
-doi: doi/1234
+doi: doi/10.5281/zenodo.15825379
 lang: "en"
 ...
 
