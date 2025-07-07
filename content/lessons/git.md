@@ -58,7 +58,7 @@ To fetch is an action that downloads the content of a remote repository while no
 
 ## Branch
 
-When you create a branch in Git (and in most if not all other version control systems) it means that "you diverge from the main line of development and continue to do work without messing with that main line" <sup><a href="https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell" target="_blank"></a></sup>. You can imagine a new branch as being a copy that you can work on as much as you want without changing the original. Once you're done with the changes and you decide you want to keep them, you can merge them back into the original. Branching (working with multiple branches) is a powerful concept in Git that you can use to origanize your work.
+When you create a branch in Git (and in most if not all other version control systems) it means that "you diverge from the main line of development and continue to do work without messing with that main line" <sup><a href="https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell" target="_blank">ref</a></sup>. You can imagine a new branch as being a copy that you can work on as much as you want without changing the original. Once you're done with the changes and you decide you want to keep them, you can merge them back into the original. Branching (working with multiple branches) is a powerful concept in Git that you can use to origanize your work.
 
 # Git Branching Workflows
 
