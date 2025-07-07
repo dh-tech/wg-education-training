@@ -32,19 +32,24 @@ SectionPagesMenu = "main"
 
   [[menu.main]]
     name = "Contribute"
-    url = "/contribute/"
     weight = 3
     identifier = "contribute"
 
   [[menu.main]]
+    name = "Contribute"
+    url = "/contribute/"
+    parent = "contribute"
+    weight = 1
+    
+  [[menu.main]]
     name = "Author Guidelines"
     url = "/contribute/author-guidelines/"
     parent = "contribute"
-    weight = 1
+    weight = 2
 
   [[menu.main]]
     name = "Reviewer Guidelines"
     url = "/contribute/reviewer-guidelines/"
     parent = "contribute"
-    weight = 2
+    weight = 3
 
