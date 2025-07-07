@@ -56,7 +56,11 @@ When several collaborators are working together on a repository hosted remotely,
 
 To fetch is an action that downloads the content of a remote repository while not integrating any new or changed content into your local copy of that repository. Fetching a remote repository gives the user an overview of the implemented changes that this repository has undergone while not directly implementing them to the local data.
 
-# Git Workflows
+## Branch
+
+When you create a branch in Git (and in most if not all other version control systems) it means that "you diverge from the main line of development and continue to do work without messing with that main line" <sup><a href="https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell" target="_blank"></a></sup>. You can imagine a new branch as being a copy that you can work on as much as you want without changing the original. Once you're done with the changes and you decide you want to keep them, you can merge them back into the original. Branching (working with multiple branches) is a powerful concept in Git that you can use to origanize your work.
+
+# Git Branching Workflows
 
 When you start working with a Git repository, especially when you work with multiple people but even if you are working alone, you might start to wonder how to most effectively work with branches. When do you create a new branch? When do you merge? How many branches should you create? Well, you're not the first to think about this! There are several widely-used workflows that provide guidance on these questions. You can find a brief description of several workflows on [this GitLab page](https://about.gitlab.com/topics/version-control/what-is-git-workflow/).
 
@@ -94,3 +98,4 @@ When you stash your changes, you basically save them locally without committing 
 - [Software Carpentries Git Tutorial](https://swcarpentry.github.io/git-novice/)
 - [Code Refinery Git Tutorial](https://coderefinery.github.io/git-intro/)
 - [Git Workflows](https://about.gitlab.com/topics/version-control/what-is-git-workflow/)
+- [Offiical Git Documentation](https://git-scm.com/doc)
