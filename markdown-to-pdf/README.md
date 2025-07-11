@@ -11,7 +11,7 @@ Copy eisvogel-dhtech.latex into the Pandoc templates folder (on Mac: `/Users/[us
 
 ## Creating a PDF
 
-- Exchange the markdown header of the lesson with a header like this:
+- Exchange the markdown header of the lesson with a header like this (make sure colons are used and the correct beginning/end separators):
 ```
 ---
 title: "Git & GitHub"
