@@ -74,6 +74,13 @@
         <span class="f6 mv4 dib tracked"> - {{ i18n "readingTime" .ReadingTime }} </span>
         <span class="f6 mv4 dib tracked"> - {{ i18n "wordCount" .WordCount }} </span>
       {{ end }}
+    
+      {{ with .Params.download }}
+      <p>
+        <a href="{{ . }}">{{- partial "download-icon.html" . -}}&nbsp;Download</a>
+
+      </p>
+      {{ end }}
     </header>
      <section class="cf w-100 mt4">
        <div class="fl w-100 pr4-l">

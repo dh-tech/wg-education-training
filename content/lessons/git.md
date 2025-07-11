@@ -8,6 +8,7 @@ toc = true
 status = 'published'
 pathways = ["intro-to-software-development"]
 doi = '10.5281/zenodo.15864066'
+download = 'https://zenodo.org/records/15864066/files/DamerowFreire-Git-DHTechET.pdf?download=1'
 +++
 
 
