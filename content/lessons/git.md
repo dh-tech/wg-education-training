@@ -1,7 +1,7 @@
 +++
 title = 'Git & GitHub'
-date = 2025-07-11T16:03:06-05:00
-last_updated = 2025-07-11T16:03:06-05:00
+date = 2025-07-11T10:03:06-05:00
+last_updated = 2025-07-11T10:03:06-05:00
 author = ["Julia Damerow", "Fernanda Freire"] 
 reviewer = ["Jose Hernandez", "David Nelson"]
 toc = true
