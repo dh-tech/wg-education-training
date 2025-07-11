@@ -986,6 +986,14 @@ $endif$
 $if(colorlinks)$
 \hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$$endif$}
 $endif$
+
+\begin{center}
+      \Large\textbf{DHTech Education \& Training Series: $title$}\\
+      \large\textit{$for(author)$$author$$sep$, $endfor$}\\
+      \small{Reviewed by: $for(reviewer)$$reviewer$$sep$, $endfor$}\\
+      \small{DOI: $doi$}
+   \end{center}
+   
 \setcounter{tocdepth}{$toc-depth$}
 \tableofcontents
 $if(toc-own-page)$
@@ -1006,11 +1014,7 @@ $if(has-frontmatter)$
 \mainmatter
 $endif$
 
-   \begin{center}
-      \Large\textbf{DHTech Education \& Training Series: $title$}\\
-      \large\textit{$for(author)$$author$$sep$, $endfor$}\\
-      $doi$
-   \end{center}
+\section{$title$}
 
 $body$
 
