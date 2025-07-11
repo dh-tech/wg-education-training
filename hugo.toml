@@ -6,6 +6,11 @@ pagination.pagerSize = 3
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
 [params]
     custom_css = ["custom.css"]
     recent_posts_number = 4
