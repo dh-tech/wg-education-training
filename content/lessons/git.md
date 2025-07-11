@@ -7,6 +7,7 @@ reviewer = ["Jose Hernandez", "David Nelson"]
 toc = true
 status = 'published'
 pathways = ["intro-to-software-development"]
+doi = '10.5281/zenodo.15864066'
 +++
 
 
