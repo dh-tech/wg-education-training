@@ -52,3 +52,7 @@ li:hover > .nested-submenu {
   vertical-align: top;
 }
 
+a {
+    color: #357edd;
+    transition: color .15s ease-in;
+}

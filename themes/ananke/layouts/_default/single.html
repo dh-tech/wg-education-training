@@ -42,6 +42,14 @@
         </strong>
       </p>
       {{ end }}
+
+      {{/* This is the doi field */}}
+      {{ with .Params.doi }}
+      <p>
+        DOI: <a href="https://doi.org/{{ . }}">{{ . | markdownify }}</a>
+
+      </p>
+      {{ end }}
        
       {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
       {{ if not .Date.IsZero }}
