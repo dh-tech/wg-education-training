@@ -2,7 +2,8 @@
 title = 'Reproducible Research'
 date = 2024-01-17T16:03:06-05:00
 last_updated = 2025-06-01T16:03:06-05:00
-author = ["David Nelson", "Jose Hernandez"] 
+author = ["David Nelson", "Jose Hernandez"]
+reviewer = ["Julia Damerow", "Fernanda Freire"]
 toc = true
 status = 'published'
 pathways = ["intro-to-software-development"]
@@ -19,7 +20,7 @@ If we are going to take the time to build computational tools for humanistic res
 
 ### Humanities-specific barriers
 
-In the humanities, reproducible research is a moving target. While the social sciences have recently reckoned with a so-called "[replication crisis](https://en.wikipedia.org/wiki/Replication_crisis)," the humanities are only beginning to think about how their research can be reproducible. As the humanities increasingly work with large data sets and computational tools that exceed what can be manually verified by a third-party observer, we need to agree upon best practices that will ensure our peers can trust the validity of our results. This problem is further aggrieved by the fact that most developers in the digital humanities are not software engineering professionals and may only be aware of some coding best practices but not all of the ones they need to guarantee *(guarantee might be a little too much here, maybe "ensure" or "increase"?)* the future sustainability of their code and long term digital projects.
+In the humanities, reproducible research is a moving target. While the social sciences have recently reckoned with a so-called "[replication crisis](https://en.wikipedia.org/wiki/Replication_crisis)," the humanities are only beginning to think about how their research can be reproducible. As the humanities increasingly work with large data sets and computational tools that exceed what can be manually verified by a third-party observer, we need to agree upon best practices that will ensure our peers can trust the validity of our results. This problem is further aggrieved by the fact that most developers in the digital humanities are not software engineering professionals and may only be aware of some coding best practices but not all of the ones they need to increase the future sustainability of their code and long term digital projects.
 
 ### Creating reproducibility
 
