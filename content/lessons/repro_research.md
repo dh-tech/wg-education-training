@@ -1,12 +1,13 @@
 +++
 title = 'Reproducible Research'
-date = 2024-01-17T16:03:06-05:00
-last_updated = 2025-06-01T16:03:06-05:00
+date = 2025-07-12T10:03:06-05:00
+last_updated = 2025-07-01T10:03:06-05:00
 author = ["David Nelson", "Jose Hernandez"]
 reviewer = ["Julia Damerow", "Fernanda Freire"]
 toc = true
 status = 'published'
 pathways = ["intro-to-software-development"]
+doi = '10.5281/zenodo.15870520'
 +++
 
 
