@@ -1,13 +1,14 @@
 +++
 title = 'Reproducible Research'
 date = 2025-07-12T10:03:06-05:00
-last_updated = 2025-07-01T10:03:06-05:00
+last_updated = 2025-07-21T10:03:06-05:00
 author = ["David Nelson", "Jose Hernandez"]
 reviewer = ["Julia Damerow", "Fernanda Freire"]
 toc = true
 status = 'published'
 pathways = ["intro-to-software-development"]
 doi = '10.5281/zenodo.15870520'
+download = 'https://zenodo.org/records/15870520/files/NelsonHernandez-Reproducible-Research-DHTechET.pdf?download=1'
 +++
 
 
