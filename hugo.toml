@@ -1,4 +1,4 @@
-baseURL = 'https://dh-tech.github.io/wg-education-training/'
+baseURL = 'https://learn-dh-software-dev.org/'
 languageCode = 'en-us'
 title = 'DHTech - Education & Training WG'
 theme = 'ananke'
