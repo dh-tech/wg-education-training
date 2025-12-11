@@ -2,7 +2,7 @@
 title = 'Training & Education'
 description = 'DHTech Working Group'
 date = 2024-01-17T16:03:06-05:00
-featured_image = "/images/code-coffee-pic.jpeg"
+featured_image = "static/images/code-coffee-pic.jpeg"
 
 +++
 
