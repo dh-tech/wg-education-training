@@ -1,18 +1,14 @@
-+++ 
-title = 'Include Your Title Here'
-date = 2025-07-11T10:03:06-05:00
-last_updated = 2025-07-11T10:03:06-05:00
-# include the names of your authors here
-author = ["Albert Einstein", "Roberto Busa"]
-# leave blank, to be completed after review
-reviewer = []
-toc = true
-# editorial team will change to published after submission
-status = 'draft'
-# to be filled out by editorial team
-pathways = []
-doi = '' 
-download = '' 
++++  
+title = 'Include Your Title Here'  
+date = 2025-07-11T10:03:06-05:00  
+last_updated = 2025-07-11T10:03:06-05:00  
+author = ["Albert Einstein", "Roberto Busa"] # include the names of your authors here  
+reviewer = [] # leave blank, to be completed after review  
+toc = true  
+status = 'draft'  # editorial team will change to published after submission  
+pathways = []  # to be filled out by editorial team  
+doi = ''  # to be filled out by editorial team  
+download = ''  
 +++
 
 You can start writing your lesson immediately after the front matter. The title will automatically generate for you from the front matter, so there is no need to include an additional title.
@@ -23,7 +19,11 @@ This is a useful feature!
 
 ## This is also true of subheadings, so go nuts
 
-This website supports normal Markdown features, so you can include [links](https://dh-tech.github.io) and ![images](https://raw.githubusercontent.com/dh-tech/wg-education-training/refs/heads/website/static/images/hippocoding4.png). If you are unfamiliar with Markdown, we recommend you use the following markdown tutorial:
+This website supports normal Markdown features, so you can include [links](https://dh-tech.github.io) and images.
+
+![images](https://raw.githubusercontent.com/dh-tech/wg-education-training/refs/heads/website/static/images/hippocoding4.png).
+
+If you are unfamiliar with Markdown, we recommend you use the following markdown tutorial:
 
 https://www.markdowntutorial.com/
 
