@@ -2,7 +2,7 @@
 name: Planned Lesson
 about: For lessons that are planned to be written.
 title: "[Planned Lesson] "
-labels: ''
+labels: Planned Lesson
 assignees: ''
 
 ---
