@@ -18,4 +18,4 @@ assignees: ''
 # Lessons that will link to this new lesson
 <!-- please add list of lessons that will link to this new lesson here -->
 
- [ ] Lesson topic
+- [ ] Lesson topic
