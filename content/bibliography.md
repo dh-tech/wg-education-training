@@ -4,5 +4,5 @@ title: Bibliography
 
 ## References
 
-{{<bibliography>}}
 
+{{<bibliography>}}
