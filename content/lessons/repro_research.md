@@ -49,5 +49,6 @@ For bigger projects with many files it is good practice to provide entire docume
 
 ##### Resources
 
-- Rik Peels, "Replicability and replication in the humanities." _Research Integrity and Peer Review_ 4 (2019). [https://doi.org/10.1126/science.aac4716.](https://doi.org/10.1126/science.aac4716.)
-- Joseph Flanagan, "Reproducible research: Strategies, tools, and workflows." _Studies in Variation, Contacts and Change in English_, eds. Turo Hiltunen, Joe McVeigh, Tanja Säily (Helsinki: Research Unit for Variation, Contacts and Change in English, 2017). <https://varieng.helsinki.fi/series/volumes/19/flanagan/>
+{{<cite title="Replicability and replication in the humanities">}}
+{{<cite title="Reproducible research: Strategies, tools, and workflows">}}
+{{<bibliography cited="true">}}

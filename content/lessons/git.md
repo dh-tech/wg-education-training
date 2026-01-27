@@ -96,8 +96,12 @@ When you stash your changes, you basically save them locally without committing 
 
 # Resources
 
-- [Wikipedia entry about Git](https://en.wikipedia.org/wiki/Git)
-- [Software Carpentries Git Tutorial](https://swcarpentry.github.io/git-novice/)
+- [Wikipedia entry about Git](https://en.wikipedia.org/wiki/Git) {{<cite title="Git">}}
+- [Software Carpentries Git Tutorial](https://swcarpentry.github.io/git-novice/) {{<cite title="Version Control with Git: Summary and Setup">}}
 - [Code Refinery Git Tutorial](https://coderefinery.github.io/git-intro/)
+{{<cite title="Introduction to version control with Git - Why we want to track versions and how to go back in time to a working version — Introduction to version control with Git documentation">}}
 - [Git Workflows](https://about.gitlab.com/topics/version-control/what-is-git-workflow/)
+{{<cite title="What is a Git workflow?">}}
 - [Offiical Git Documentation](https://git-scm.com/doc)
+{{<cite title="Git - Reference">}}
+
