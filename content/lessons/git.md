@@ -13,6 +13,8 @@ download = 'https://zenodo.org/records/15864066/files/DamerowFreire-Git-DHTechET
 
 
 In this lesson, we will talk about version control with Git and GitHub. Some of you might have already heard about it or even used it. Git is a very popular version control tool mostly used by developers but it can very well be applied to non-coding projects as well! You could use it to write a paper or to manage your dataset. If you do develop code, however, you should not live without Git or another version control system. There are several other version control systems such as Mercurial and SVN but Git is the most used in research. In the international research software engineer survey from 2022, Git was used by [93.75% of all survey respondents](https://softwaresaved.github.io/international-survey-2022/section/good-practices/#use-of-version-control).
+{{<cite title="Git">}}
+{{<cite title="Git - Reference">}}
 
 But what are version control systems? Version control systems are systems used for tracking changes in files. They allow multiple users to collaborate on the same project in parallel, maintaining the integrity of the files and avoiding overwriting each other’s work. They offer features such as maintaining a history of the changes, being able to revert to previous versions, and merge different versions of the same file. 
 
@@ -22,9 +24,11 @@ If you want to know more about why using Git and GitHub is useful, check [this p
 
 To start out, you should first work through one or both of the following Git tutorials.
 - Software Carpentries Git Tutorial: [Version Control with Git ](https://swcarpentry.github.io/git-novice/)  
+{{<cite title="Version Control with Git: Summary and Setup">}}
 This tutorial is fairly detailed in the descriptions and walks you through an example project with Wolfman and Dracula.  
 - Code Refinery Git Tutorial: [Introduction to version control with Git](https://coderefinery.github.io/git-intro/)  
 This tutorial offers a hands-on approach to learning how to work with Git, with exercises and examples but with a little less text.
+{{<cite title="Introduction to version control with Git - Why we want to track versions and how to go back in time to a working version — Introduction to version control with Git documentation">}}
 
 Getting used to working with Git and Github can be a bit confusing in the beginning, but don’t be scared: in our FAQ section, we selected a series of common questions and problems you might have in your journey alongside short explanations and useful links. If you have questions that are not included in our FAQ, [open an issue in our repository](https://github.com/dh-tech/wg-education-training/issues) so that we can include it.
 
@@ -64,7 +68,7 @@ When you create a branch in Git (and in most if not all other version control sy
 
 # Git Branching Workflows
 
-When you start working with a Git repository, especially when you work with multiple people but even if you are working alone, you might start to wonder how to most effectively work with branches. When do you create a new branch? When do you merge? How many branches should you create? Well, you're not the first to think about this! There are several widely-used workflows that provide guidance on these questions. You can find a brief description of several workflows on [this GitLab page](https://about.gitlab.com/topics/version-control/what-is-git-workflow/).
+When you start working with a Git repository, especially when you work with multiple people but even if you are working alone, you might start to wonder how to most effectively work with branches. When do you create a new branch? When do you merge? How many branches should you create? Well, you're not the first to think about this! There are several widely-used workflows that provide guidance on these questions. You can find a brief description of several workflows on [this GitLab page](https://about.gitlab.com/topics/version-control/what-is-git-workflow/){{<cite title="What is a Git workflow?">}}
 
 Generally, it is good to remember that the more short-lived your branches are, the easier it will be to merge it back into the main branch. Some workflows even completely avoid using branches with the goal to avoid messy merge situations. 
 
@@ -95,13 +99,4 @@ Force pushing is an action you should avoid whenever possible. *Do not do it unl
 When you stash your changes, you basically save them locally without committing them with the goal to get a *clean* working directory (a working directory in which your files do not have any pending changes). You sometimes want to do that when you made changes on one branch and are not ready to commit them yet, but need switch to a different branch temporarily. In that case you can stash your changes, switch to another branch, work on the other branch and then come back to your first branch (or another!) and get the saved changes back from the stash (called *applying* the stashed changes).
 
 # Resources
-
-- [Wikipedia entry about Git](https://en.wikipedia.org/wiki/Git) {{<cite title="Git">}}
-- [Software Carpentries Git Tutorial](https://swcarpentry.github.io/git-novice/) {{<cite title="Version Control with Git: Summary and Setup">}}
-- [Code Refinery Git Tutorial](https://coderefinery.github.io/git-intro/)
-{{<cite title="Introduction to version control with Git - Why we want to track versions and how to go back in time to a working version — Introduction to version control with Git documentation">}}
-- [Git Workflows](https://about.gitlab.com/topics/version-control/what-is-git-workflow/)
-{{<cite title="What is a Git workflow?">}}
-- [Offiical Git Documentation](https://git-scm.com/doc)
-{{<cite title="Git - Reference">}}
-
+{{<references>}}
