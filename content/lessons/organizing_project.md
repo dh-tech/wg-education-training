@@ -1,10 +1,13 @@
 +++
 title = 'Organizing Your Project'
-date = 2025-12-11T08:03:06-04:00
-status = 'draft'
-author = ["David Ragnar Nelson"]
+date = 2026-03-12T08:03:06-04:00
+status = 'published'
+author = ['David Ragnar Nelson']
+reviewer = ['Jose Hernandez']
 pathways = ["intro-to-software-development"]
 toc = true
+doi = '10.5281/zenodo.18986192'
+download = 'https://zenodo.org/records/18986192/files/organizing_project.pdf?download=1'
 +++
 
 
@@ -59,7 +62,7 @@ Your project should include a ```README``` that explains installation instructio
 
 ### 3. Document your dependencies
 
-Your project should contain a clear list of dependencies. How you manage this will depend on the languages the project is written in. For Python, you may provide a ```requirements.txt``` file or a ```pyproject.toml``` file. JavaScript projects may provide a ```package.json``` file. Using a package manager such as [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) or [uv](https://docs.astral.sh/uv/) for Python, or [npm](https://www.npmjs.com/) for JavaScript, can help automate this step.
+Your project should contain a clear list of dependencies. How you manage this will depend on the languages the project is written in. For Python, you may provide a ```requirements.txt``` file or a ```pyproject.toml``` file. JavaScript projects may provide a ```package.json``` file. Using a package manager such as [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) or [uv](https://docs.astral.sh/uv/) for Python, or [npm](https://www.npmjs.com/) for JavaScript, can help automate dependency management.
 
 ### 4. Provide a citation file
 
@@ -114,11 +117,7 @@ In addition to frameworks, certain software libraries may come with conventions 
 
 ## Version control and project organization
 
-Project organization presents particular challenges when it comes to [version control](https://dh-tech.github.io/wg-education-training/lessons/git/).
-
-### Tracking changes in organization
-
-The whole point of version control is to track changes in the history of a project. However, if you need to reorganize your project, you have to take additional care to ensure that the file's history is reflected in your project's version tree. Instead of using the GUI file explorer, your terminal's command interpreter, or your text editor's file system, you should move files through the command [```git mv```](https://git-scm.com/docs/git-mv). Additionally, changes in content should be in separate commits from changes in organization. This is a fairly advanced version control procedure that can trip up even experieced developers!
+Project organization presents particular challenges when it comes to [version control](https://dh-tech.github.io/wg-education-training/lessons/git/). The whole point of version control is to track changes in the history of a project. However, if you need to reorganize your project, you have to take additional care to ensure that the file's history is reflected in your project's version tree. Instead of using the GUI file explorer, your terminal's command interpreter, or your text editor's file system, you should move files through the command [```git mv```](https://git-scm.com/docs/git-mv). Additionally, changes in content should be in separate commits from changes in organization. This is a fairly advanced version control procedure that can trip up even experieced developers!
 
 ### Working with private files
 
