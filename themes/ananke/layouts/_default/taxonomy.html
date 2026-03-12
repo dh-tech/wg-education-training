@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <article class="cf pa3 pa4-m pa4-l">
+  <article class="pa3 pa4-ns nested-copy-line-height">
     <div class="measure-wide-l center tc f4 lh-copy nested-copy-line-height nested-links {{ $.Param "text_color" | default "mid-gray" }}">
       <p>{{ i18n "taxonomyPageList" . | safeHTML }}</p>
     </div>
@@ -10,14 +10,14 @@
       <h4 class="f4 mb3 dark-gray">Filters:</h4>
       <nav>
         {{ range $name, $taxonomy := site.Taxonomies.status }}
-          <a class="f5 link dim br3 ba bw1 ph3 pv2 ma2 dib dark-blue" href="{{ "/wg-education-training/status/" | relURL }}{{ $name | urlize }}/">
+          <a class="f5 link dim br3 ba bw1 ph3 pv2 ma2 dib dark-blue" href="{{ "/status/" | relURL }}{{ $name | urlize }}/">
             {{ $name | title }}
           </a>
         {{ end }}
+        <a class="f5 link dim br3 ba bw1 ph3 pv2 ma2 dib dark-blue" href="{{ "/lessons/" | relURL }}">All</a>
       </nav>
     </div>
 
-  <div class="mw8 center">
     <section class="flex-ns flex-wrap justify-around mt5">
       {{ range  .Pages }}
         <div class="relative w-100 w-30-l br4 mb4 bg-white">
@@ -25,5 +25,4 @@
         </div>
       {{ end }}
     </section>
-  </div>
 {{ end }}

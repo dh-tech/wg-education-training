@@ -21,4 +21,4 @@ This page gives you a quick overview on how to make a contribution.
   Include links to tools, resources, or examples where relevant. You can collect references to existing tutorials on the same topic you are writing about and also resources for more advanced steps. Make sure they work and point to stable sources when possible.
 
 - **Submitting your draft**  
-  You can submit your draft as a Markdown file.
+  You can submit your draft as a Markdown file. Please see our [lesson template](https://github.com/dh-tech/wg-education-training/blob/main/lesson-template.md).
