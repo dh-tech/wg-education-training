@@ -13,7 +13,7 @@ download = 'https://zenodo.org/records/20186489/files/Damerow-DHTechET-OpenSourc
 
 Before we start talking about what to consider when you want to make your project open source, we should briefly look at what open source software is and what it means to have an open source project. Many people, when they say their code or software is open source, refer to the code being on platforms like GitHub where other people can download and use the code for their own purposes. In a general sense, this is correct. The Open Source Initiative (OSI) includes this characteristic in their [10-point definition of open source](https://opensource.org/osd): 
 
-*The program must include source code, and must allow distribution in source code as well as compiled form. Where some form of a product is not distributed with source code, there must be a well-publicized means of obtaining the source code for no more than a reasonable reproduction cost, preferably downloading via the Internet without charge.* 
+> The program must include source code, and must allow distribution in source code as well as compiled form. Where some form of a product is not distributed with source code, there must be a well-publicized means of obtaining the source code for no more than a reasonable reproduction cost, preferably downloading via the Internet without charge. 
 
 The INTERSECT training on Software Licensing provides a great brief overview of what open source is and why you would want to make your project open source, which we encourage you to read:
 
