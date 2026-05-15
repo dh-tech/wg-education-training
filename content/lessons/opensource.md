@@ -9,6 +9,7 @@ status = 'published'
 pathways = []
 doi = 'https://doi.org/10.5281/zenodo.20186489'
 download = 'https://zenodo.org/records/20186489/files/Damerow-DHTechET-OpenSource.pdf?download=1'
+summary = "Many people, when they say their code or software is open source, refer to the code being on platforms like GitHub where other people can download and use the code for their own purposes. In a general sense, this is correct. However, putting your code on GitHub does not mean it’s open source. In this lesson we talk about how to open source your software project."
 +++
 
 Before we start talking about what to consider when you want to make your project open source, we should briefly look at what open source software is and what it means to have an open source project. Many people, when they say their code or software is open source, refer to the code being on platforms like GitHub where other people can download and use the code for their own purposes. In a general sense, this is correct. The Open Source Initiative (OSI) includes this characteristic in their [10-point definition of open source](https://opensource.org/osd): 
