@@ -1,0 +1,8 @@
+---
+title: Bibliography
+---
+
+## References
+
+{{<bibliography>}}
+

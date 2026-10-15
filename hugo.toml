@@ -1,7 +1,7 @@
 baseURL = 'https://learn-dh-software-dev.org/'
 languageCode = 'en-us'
 title = 'DHTech - Education & Training WG'
-theme = 'ananke'
+theme = ['ananke', 'hugo-bibliography']
 pagination.pagerSize = 3
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
@@ -15,6 +15,7 @@ SectionPagesMenu = "main"
     custom_css = ["custom.css"]
     recent_posts_number = 4
     toc = true
+    groupId = 6345137
 
 [taxonomies]
     status = "status"
@@ -39,6 +40,11 @@ SectionPagesMenu = "main"
     name = "Contribute"
     weight = 3
     identifier = "contribute"
+
+  [[menu.main]]
+    name = "Bibliography"
+    url = "/bibliography/"
+    weight = 3
 
   [[menu.main]]
     name = "Contribute"
